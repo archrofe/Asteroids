@@ -78,7 +78,6 @@ public class GameController : MonoBehaviour
 
     public void IncrementScore()
     {
-        // lol
         score++;
 
         scoreText.text = "SCORE:" + score;
